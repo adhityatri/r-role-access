@@ -1,23 +1,26 @@
 {
-  "name": "server-role",
+  "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "mencoba fastify",
+  "main": "app.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
   },
-  "keywords": [],
-  "author": "Adhitya Tri",
+  "author": "adhitya tri",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "fastify": "^3.18.0",
+    "fastify-autoload": "^3.8.0",
     "fastify-sequelize": "^1.0.4",
     "fastify-swagger": "^4.8.0",
-    "g": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "mysql2": "^2.2.5",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
   }
 }
